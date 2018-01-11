@@ -25,8 +25,7 @@ telegam_api     = ''
 telegam_user    = ''
 
 # InstaPy login set
-session = InstaPy(username=insta_username,password=insta_password,
-    use_firefox=True,nogui=True)
+session = InstaPy(username=insta_username,password=insta_password,nogui=True)
 
 # Telegram settings
 telegram_ext = InstaPyTelegramExtension(telegam_api,telegam_user,session)
@@ -54,4 +53,4 @@ finally:
 
 
 ```
-### Feel free to make a donation: 1GRzojySc9vDXZeF4c5P4FuzNBbs6Mkzh (bitcoin address)
+### Hope this helps.
