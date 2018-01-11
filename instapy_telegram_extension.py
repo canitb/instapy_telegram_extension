@@ -20,6 +20,10 @@ class InstaPyTelegramExtension(InstaPy):
 
     def hello(self):
         self.bot.sendMessage(self.user_id, "Hello World !")
+    
+    def sendtext(self, input_text) :
+        self.bot.sendMessage(self.user_id, '{}: {}'
+            .format(self.core.username, input_text))
 
     def send_daily_report(self):
         conn = sqlite3.connect('./db/instapy.db')
