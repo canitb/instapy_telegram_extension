@@ -3,8 +3,10 @@ InstaPy Telegram Extension
 ### Available methods
 
 - hello (print Hello World to your Telegram)
+- sendtext("start") prints your <instagramuser: start> message to telegram (supports multiple instagram users).
 - send_daily_report
   (send daily activity report (likes, comments, follows, unfollows))
+- Supports error exceptions sent directly to telegram if anything fails.
 
 ### How to install
 
